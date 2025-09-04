@@ -1,13 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# mở Chrome
+# Open Chrome
 driver = webdriver.Chrome()
 
-# vào Google
+# Get Google
 driver.get("https://www.google.com")
 
-# in ra tiêu đề trang
+# Print title
 print(driver.title)
 
 driver.quit()
